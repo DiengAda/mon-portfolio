@@ -1,0 +1,31 @@
+import './Navigation.css'
+
+function Navigation() {
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  return (
+    <nav className="navigation">
+      <div className="nav-container">
+        <div className="nav-logo">
+          <h2>Adama Dieng</h2>
+        </div>
+        <ul className="nav-menu">
+          <li><button onClick={() => scrollToSection('accueil')}>Accueil</button></li>
+          <li><button onClick={() => scrollToSection('a-propos')}>À propos</button></li>
+          <li><button onClick={() => scrollToSection('formation')}>Formation</button></li>
+          <li><button onClick={() => scrollToSection('competences')}>Compétences</button></li>
+          <li><button onClick={() => scrollToSection('langues')}>Langues</button></li>
+          <li><button onClick={() => scrollToSection('projets')}>Projets</button></li>
+          <li><button onClick={() => scrollToSection('contact')}>Contact</button></li>
+        </ul>
+      </div>
+    </nav>
+  );
+}
+
+export default Navigation;
