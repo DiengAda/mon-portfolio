@@ -7,10 +7,10 @@ function Hero() {
       <div className="hero-container">
         <div className="hero-content">
           <h1 className="hero-title">
-            Bonjour, je suis <span className="highlight">Adama Dieng</span>
+            <span className="highlight">Adama DIENG</span>
           </h1>
           <p className="hero-subtitle">
-            Étudiant Master 2 CSMI - Stagiaire à l'IRMA | Modélisation et Simulation Numérique
+            Ingénierie mathématique | Data Science & IA | Modélisation mathématique
           </p>
           <div className="hero-buttons">
             <button 
@@ -25,6 +25,13 @@ function Hero() {
             >
               Me contacter
             </button>
+
+          <button 
+            className="btn btn-secondary"
+            onClick={() => document.getElementById('formation').scrollIntoView({ behavior: 'smooth' })}
+          >          
+            Voir mes formations
+          </button>
           </div>
         </div>
         <div className="hero-image">

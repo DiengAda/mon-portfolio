@@ -8,18 +8,16 @@ function About() {
         <div className="about-content">
           <div className="about-text">
             <p>
-              Diplômé d’un Master en Calcul Scientifique et Mathématiques de l’Innovation, spécialisé en modélisation mathématique et simulation numérique,
-              je combine une formation approfondie en en méthodes numériques avancées et optimisation appliquées à des systèmes complexes tels que les modèles de transport, d’écoulement et de diffusion.   
-              Passionné par la recherche et développement, l'ingénierie et le développement 
-              technologique, je me concentre sur l'application de méthodes mathématiques avancées 
-              à des problèmes concrets.
+              Diplômé d'un Master en Calcul Scientifique et Mathématiques de l'Innovation (Université de Strasbourg), avec une spécialisation en modélisation mathématique, simulation numérique, méthodes numériques avancées et optimisation.
             </p>
             <p>
-              {/* Mon expérience actuelle à l'IRMA me permet d'approfondir mes compétences en recherche 
-              mathématique avancée. Ma formation en équations aux dérivées partielles, calcul 
-              scientifique et optimisation, combinée à mon expérience pratique en modélisation 
-              numérique, me donne une approche rigoureuse et innovante pour résoudre des problèmes 
-              complexes scientifiques et industriels. */}
+              En cours de formation en Master Mathématiques pour l'Ingénierie, l'Algorithmique et la Statistique (Université de Bourgogne Europe), une formation d'ingénieur mathématicien axée sur les mathématiques appliquées, la science des données (machine learning, intelligence artificielle) et l'informatique scientifique.
+            </p>
+            <p>
+              Compétences en modélisation mathématique, méthodes numériques avancées, data science et programmation scientifique (C/C++, Python, R, SQL), avec une solide formation en probabilités, statistiques et optimisation.
+            </p>
+            <p>
+              Intéressé par des projets de R&D à l'interface entre mathématiques, ingénierie et données.
             </p>
             <div className="about-stats">
               <div className="stat">
