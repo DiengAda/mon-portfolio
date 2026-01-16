@@ -23,7 +23,7 @@ function Footer() {
             <div className="social-links">
               <a href="https://linkedin.com/in/Dieng-Adama" aria-label="LinkedIn">💼</a>
               <a href="https://github.com/DiengAda" aria-label="GitHub">💻</a>
-              <a href="mailto:adamadieng1957@gmail.com" aria-label="Email">�</a>
+              <a href="mailto:adamadieng1957@gmail.com" aria-label="Email">📧</a>
             </div>
           </div>
         </div>
