@@ -47,7 +47,7 @@ function Languages() {
           ))}
         </div>
         
-        <div className="additional-skills">
+        {/* <div className="additional-skills">
           <h3>Compétences Complémentaires</h3>
           <div className="skills-list">
             <div className="skill-card">
@@ -66,7 +66,7 @@ function Languages() {
               <p>Capacité à collaborer efficacement dans des projets de recherche</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
