@@ -49,10 +49,10 @@ function Skills() {
       title: 'Outils et logiciels',
       items: ['VS Code', 'RStudio', 'Paraview', 'Gmsh', 'Système Linux', 'LaTeX'],
     },
-    {
-      title: 'Divers',
-      items: ['Travail en équipe', 'Communication scientifique'],
-    },
+    // {
+    //   title: 'Divers',
+    //   items: ['Travail en équipe', 'Communication scientifique'],
+    // },
   ];
 
   return (
@@ -70,6 +70,26 @@ function Skills() {
           </div>
         ))}
       </div>
+      <div className="additional-skills">
+          {/* <h3>Compétences Complémentaires</h3> */}
+          <div className="skills-list">
+            <div className="skill-card">
+              <span className="skill-icon">💻</span>
+              <h4>Système d'exploitation Linux</h4>
+              <p>Maîtrise avancée de l'environnement Linux et des commandes shell</p>
+            </div>
+            <div className="skill-card">
+              <span className="skill-icon">📄</span>
+              <h4>Communication Scientifique</h4>
+              <p>Rédaction de rapports techniques avec LaTeX et présentations Beamer</p>
+            </div>
+            <div className="skill-card">
+              <span className="skill-icon">👥</span>
+              <h4>Travail en Équipe</h4>
+              <p>Capacité à collaborer efficacement dans des projets de recherche</p>
+            </div>
+          </div>
+        </div>
     </section>
   );
 }
