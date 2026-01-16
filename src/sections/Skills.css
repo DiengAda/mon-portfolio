@@ -56,6 +56,39 @@
   transition: width 1s ease;
 }
 
+/* Nouveau rendu sans pourcentages */
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 3rem;
+}
+
+.skill-tag {
+  background: white;
+  color: #333;
+  border: 1px solid #e6e8ef;
+  padding: 0.5rem 0.9rem;
+  border-radius: 999px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  font-weight: 500;
+}
+
+/* Blocs de catégories de compétences */
+.skills-block {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.25rem 1.25rem 0.25rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+}
+
+.skills-block h3 {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 0.75rem;
+}
+
 .technologies {
   text-align: center;
 }
