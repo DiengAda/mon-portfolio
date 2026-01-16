@@ -3,42 +3,42 @@ import './Projects.css'
 function Projects() {
   const projects = [
     {
-      title: "Modélisation Organ-On-Chip (OOC)",
-      description: "Stage Master 2 : Modélisation de la migration cellulaire induite par des signaux chimiques avec méthode HDG pour obtenir des simulations fidèles aux observations expérimentales.",
-      technologies: ["Python", "Méthodes HDG", "Modélisation"],
+      title: "Stage Master 2: MATHEMATICAL MODELING AND SIMULATIONS OF ORGAN-ON-CHIP OOC",
+      description: "Modélisation de la migration cellulaire induite par des signaux chimiques et des interactions à courte et longue portée entre cellules immunitaires et tumorales. Conception d'un schéma numérique implémenté en C++ pour résoudre ces modèles mathématiques et obtenir des simulations fidèles aux observations expérimentales en labo.",
+      technologies: ["C++", "EDPs","Modélisation mathématique", "Simulation numérique", "Visualisation", "ParaView","Github"],
       image: "🧬",
+      github: "https://github.com/orgs/master-csmi/discussions/72",
+      demo: "#"
+    },
+    {
+      title: "Projet académique: SIMULATION NUMÉRIQUE D’UN MODÈLE  DIPHASIQUE DANS UN MILIEU POREUX",
+      description: "Modélisation et simulation numérique d'un écoulement diphasique dans un milieu poreux. Analyse des interactions fluides et évaluation des paramètres influençant l'écoulement dans le milieu poreux. Visualisation 2D/3D avec Paraview et post-processing.",
+      technologies: ["EDPs","Python", "Loi de Darcy", "Simulation", "Paraview", "Visualisation"],
+      image: "💧",
       github: "#",
       demo: "#"
     },
     {
-      title: "Structure-Preserving Integration Methods",
-      description: "Projet INRIA : Développement de méthodes numériques conservant les structures géométriques des systèmes dynamiques, appliqué aux modèles astrophysiques (problème de Kepler).",
-      technologies: ["Python", "Méthodes Numériques", "Astrophysique"],
-      image: "🌟",
-      github: "#",
-      demo: "#"
-    },
-    {
-      title: "Schéma Galerkine Discontinue (DG)",
-      description: "Stage Master 1 : Analyse et implémentation de la méthode DG pour résoudre des systèmes d'EDP linéaires stationnaires et problèmes de transport non stationnaires.",
-      technologies: ["Python", "EDP", "Méthode DG"],
+      title: "Stage Master 1 : ETUDE D’UN SCHÉMA DE TYPE GALERKINE  DISCONTINUE (DG)",
+      description: "Analyse et implémentation en Python de la méthode de Galerkine Discontinue pour résoudre des systèmes d'EDP linéaires stationnaires. Application à des problèmes de transport linéaire non stationnaires (advection-réaction), avec une analyse approfondie des bornes sur les dérivées des erreurs.",
+      technologies: ["Python", "Analyse numérique", "EDPs"],
       image: "📊",
-      github: "#",
+      github: "https://github.com/DiengAda/Mes_Projets_Master/tree/main/Stages/M1-DG/dg-dieng-main",
       demo: "#"
     },
     {
-      title: "Simulation Thermique Microprocesseur",
-      description: "Modélisation du comportement thermique d'un microprocesseur via simulations numériques C++, avec optimisation des performances et visualisation Paraview.",
-      technologies: ["C++", "Simulation", "Paraview"],
+      title: "Projet académique: SIMULATION NUMÉRIQUE D’UN DISPOSITIF DE REFROIDISSEMENT DE MICROPROCESSEUR EN C++",
+      description: "Étude d'un modèle de comportement thermique d'un microprocesseur et simulation numérique en C++. Optimisation des performances des simulations en ajustant les paramètres de maillage et les algorithmes de résolution. Visualisation 2D/3D avec Paraview et gestion efficace des fichiers de sortie (VTK, CSV).",
+      technologies: ["C++", "Simulation thermique", "Optimisation numérique", "Paraview", "Visualisation"],
       image: "🔥",
       github: "#",
       demo: "#"
     },
     {
-      title: "Modèle Diphasique Milieu Poreux",
-      description: "Modélisation et simulation numérique d'un écoulement diphasique dans un milieu poreux utilisant la loi de Darcy, avec analyse des interactions fluides.",
-      technologies: ["Python", "Loi de Darcy", "Simulation"],
-      image: "�",
+      title: "Projet INRIA : STRUCTURE-PRESERVING INTEGRATION METHODS FOR ORDINARY DIFFERENTIAL EQUATIONS (ODES)",
+      description: "Développement de méthodes numériques conservant les structures géométriques des systèmes dynamiques, appliqué aux modèles astrophysiques (problème de Kepler).",
+      technologies: ["Python", "ODEs","Méthodes Numériques", "Astrophysique"],
+      image: "🌟",
       github: "#",
       demo: "#"
     }
@@ -64,11 +64,11 @@ function Projects() {
                 </div>
                 <div className="project-links">
                   <a href={project.github} className="project-link">
-                    <span>GitHub</span>
+                    <span>Voir en détails </span>
                   </a>
-                  <a href={project.demo} className="project-link demo">
+                  {/* <a href={project.demo} className="project-link demo">
                     <span>Démo</span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
