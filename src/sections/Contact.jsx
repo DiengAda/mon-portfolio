@@ -26,9 +26,7 @@ function Contact() {
           <div className="contact-info">
             <h3>Discutons de votre projet</h3>
             <p>
-              Actuellement stagiaire à l'IRMA et passionné par la recherche en modélisation numérique, 
-              je suis toujours ouvert aux discussions sur des projets de recherche, collaborations 
-              ou opportunités dans le domaine du calcul scientifique. N'hésitez pas à me contacter !
+              Passionné par la modélisation mathématique et la science des données, je suis ouvert aux projets de R&D, collaborations et opportunités. N'hésitez pas à me contacter !
             </p>
             <div className="contact-items">
               <div className="contact-item">
@@ -63,7 +61,7 @@ function Contact() {
                 <span className="contact-icon">📍</span>
                 <div>
                   <h4>Localisation</h4>
-                  <p>14 Rue de la Wantzenau, 67085 Strasbourg</p>
+                  <p>4 Rue du Morvan, 21000 Dijon</p>
                 </div>
               </div>
               <div className="contact-item">
