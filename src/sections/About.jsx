@@ -17,7 +17,7 @@ function About() {
               Compétences en modélisation mathématique, méthodes numériques avancées, data science et programmation scientifique (C/C++, Python, R, SQL), avec une solide formation en probabilités, statistiques et optimisation.
             </p>
             <p>
-              Intéressé par des projets de R&D à l'interface entre mathématiques, ingénierie et données.
+              Intéressé par des projets de R&D à l'interface entre mathématiques, ingénierie et datas.
             </p>
             <div className="about-stats">
               <div className="stat">
@@ -29,7 +29,7 @@ function About() {
                 <p>Stages/Projets de recherche</p>
               </div>
               <div className="stat">
-                <h3>+8</h3>
+                <h3>+10</h3>
                 <p>Outils et Technologies maîtrisés</p>
               </div>
             </div>
