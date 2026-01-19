@@ -7,7 +7,7 @@ function Footer() {
         <div className="footer-content">
           <div className="footer-section">
             <h3>Adama Dieng</h3>
-            <p>Étudiant Master 2 CSMI - Spécialiste en modélisation numérique et calcul scientifique</p>
+            <p>Ingénierie mathématique | Data Science & IA | Modélisation mathématique</p>
           </div>
           <div className="footer-section">
             <h4>Liens rapides</h4>
@@ -23,7 +23,7 @@ function Footer() {
             <div className="social-links">
               <a href="https://linkedin.com/in/Dieng-Adama" aria-label="LinkedIn">💼</a>
               <a href="https://github.com/DiengAda" aria-label="GitHub">💻</a>
-              <a href="mailto:adamadieng1957@gmail.com" aria-label="Email">📧</a>
+              <a href="mailto:adamadieng1957@gmail.com" aria-label="Email">✉️</a>
             </div>
           </div>
         </div>
