@@ -18,7 +18,7 @@ function Education() {
       ]
     },
     {
-      degree: "Diplomé de Master en Calcul Scientifique et Mathématiques de l'Innovation",
+      degree: "Diplome de Master en Calcul Scientifique et Mathématiques de l'Innovation",
       school: "Université de Strasbourg, France",
       period: "2023 - 2025",
       description: "Spécialisation en modélisation mathématique, simulation numérique, méthodes numériques avancées et optimisation",
