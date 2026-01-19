@@ -1,6 +1,6 @@
 .about {
   padding: 5rem 0;
-  background: #fff;
+  background: var(--bg-primary);
 }
 
 .about-container {
@@ -41,7 +41,7 @@
 .about-text p {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: #666;
+  color: var(--text-secondary);
   margin-bottom: 1.5rem;
   max-width: 800px;
   margin-left: auto;
@@ -59,7 +59,7 @@
   text-align: center;
   padding: 1.5rem;
   border-radius: 10px;
-  background: #f8f9fa;
+  background: var(--bg-secondary);
   transition: transform 0.3s ease;
 }
 
@@ -69,12 +69,12 @@
 
 .stat h3 {
   font-size: 2.5rem;
-  color: #646cff;
+  color: var(--accent-color);
   margin-bottom: 0.5rem;
 }
 
 .stat p {
-  color: #666;
+  color: var(--text-secondary);
   font-size: 1rem;
 }
 

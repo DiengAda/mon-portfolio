@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   padding: 2rem 0;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: var(--bg-secondary);
 }
 
 .hero-container {
@@ -23,7 +23,7 @@
 .hero-title {
   font-size: 3.5rem;
   margin-bottom: 1rem;
-  color: #333;
+  color: var(--text-primary);
   line-height: 1.2;
 }
 
@@ -37,7 +37,7 @@
 
 .hero-subtitle {
   font-size: 1.25rem;
-  color: #666;
+  color: var(--text-secondary);
   margin-bottom: 2rem;
   line-height: 1.6;
 }
@@ -59,7 +59,7 @@
 }
 
 .btn-primary {
-  background: #646cff;
+  background: var(--accent-color);
   color: white;
 }
 
@@ -70,12 +70,12 @@
 
 .btn-secondary {
   background: transparent;
-  color: #646cff;
-  border: 2px solid #646cff;
+  color: var(--accent-color);
+  border: 2px solid var(--accent-color);
 }
 
 .btn-secondary:hover {
-  background: #646cff;
+  background: var(--accent-color);
   color: white;
   transform: translateY(-2px);
 }

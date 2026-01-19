@@ -1,6 +1,6 @@
 .contact {
   padding: 5rem 0;
-  background: #f8f9fa;
+  background: var(--bg-secondary);
 }
 
 .contact-container {
@@ -19,11 +19,11 @@
 .contact-info h3 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  color: #333;
+  color: var(--text-primary);
 }
 
 .contact-info p {
-  color: #666;
+  color: var(--text-secondary);
   line-height: 1.6;
   margin-bottom: 2rem;
 }
@@ -39,7 +39,7 @@
   align-items: center;
   gap: 1rem;
   padding: 1rem;
-  background: white;
+  background: var(--bg-primary);
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
@@ -51,17 +51,17 @@
 
 .contact-item h4 {
   margin: 0 0 0.5rem 0;
-  color: #333;
+  color: var(--text-primary);
   font-size: 1.1rem;
 }
 
 .contact-item p {
   margin: 0;
-  color: #666;
+  color: var(--text-secondary);
 }
 
 .contact-form {
-  background: white;
+  background: var(--bg-primary);
   padding: 2rem;
   border-radius: 15px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
@@ -75,17 +75,19 @@
 .form-group textarea {
   width: 100%;
   padding: 1rem;
-  border: 2px solid #e9ecef;
+  border: 2px solid var(--border-color);
   border-radius: 8px;
   font-size: 1rem;
   transition: border-color 0.3s ease;
   box-sizing: border-box;
+  background: var(--bg-secondary);
+  color: var(--text-primary);
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #646cff;
+  border-color: var(--accent-color);
 }
 
 .form-group textarea {
@@ -96,7 +98,7 @@
 .submit-btn {
   width: 100%;
   padding: 1rem 2rem;
-  background: #646cff;
+  background: var(--accent-color);
   color: white;
   border: none;
   border-radius: 8px;
