@@ -1,4 +1,6 @@
 import './Navigation.css'
+import LanguageToggle from './LanguageToggle'
+import ThemeToggle from './ThemeToggle'
 
 function Navigation() {
   const scrollToSection = (sectionId) => {
@@ -23,6 +25,10 @@ function Navigation() {
           <li><button onClick={() => scrollToSection('projets')}>Projets</button></li>
           <li><button onClick={() => scrollToSection('contact')}>Contact</button></li>
         </ul>
+        <div className="nav-toggles">
+          <ThemeToggle />
+          <LanguageToggle />
+        </div>
       </div>
     </nav>
   );

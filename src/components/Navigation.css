@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(255, 255, 255, 0.95);
+  background: var(--bg-primary);
   backdrop-filter: blur(10px);
   z-index: 1000;
   padding: 1rem 0;
@@ -21,7 +21,7 @@
 
 .nav-logo h2 {
   margin: 0;
-  color: #333;
+  color: var(--text-primary);
   font-size: 1.5rem;
 }
 
@@ -36,7 +36,7 @@
 .nav-menu button {
   background: none;
   border: none;
-  color: #333;
+  color: var(--text-primary);
   font-size: 1rem;
   cursor: pointer;
   transition: color 0.3s ease;
@@ -44,7 +44,13 @@
 }
 
 .nav-menu button:hover {
-  color: #646cff;
+  color: var(--accent-color);
+}
+
+.nav-toggles {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
 
 @media (max-width: 768px) {
