@@ -1,6 +1,6 @@
 .skills {
   padding: 5rem 0;
-  background: #f8f9fa;
+  background: var(--bg-secondary);
 }
 
 .skills-container {
@@ -17,7 +17,7 @@
 }
 
 .skill-item {
-  background: white;
+  background: var(--bg-primary);
   padding: 1.5rem;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -32,19 +32,19 @@
 
 .skill-header h3 {
   margin: 0;
-  color: #333;
+  color: var(--text-primary);
   font-size: 1.1rem;
 }
 
 .skill-header span {
-  color: #646cff;
+  color: var(--accent-color);
   font-weight: bold;
 }
 
 .skill-bar {
   width: 100%;
   height: 8px;
-  background: #e9ecef;
+  background: var(--border-color);
   border-radius: 4px;
   overflow: hidden;
 }
@@ -65,9 +65,9 @@
 }
 
 .skill-tag {
-  background: white;
-  color: #333;
-  border: 1px solid #e6e8ef;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
   padding: 0.5rem 0.9rem;
   border-radius: 999px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
@@ -76,17 +76,35 @@
 
 /* Blocs de catégories de compétences */
 .skills-block {
-  background: #ffffff;
+  background: var(--bg-primary);
   border-radius: 12px;
   padding: 1.25rem 1.25rem 0.25rem;
   margin-bottom: 1.5rem;
   box-shadow: 0 5px 15px rgba(0,0,0,0.06);
 }
 
+.skill-block-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.skill-block-icon {
+  font-size: 1.8rem;
+}
+
 .skills-block h3 {
   font-size: 1.25rem;
-  color: #333;
-  margin-bottom: 0.75rem;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.skills-description {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
 }
 
 .technologies {
@@ -96,7 +114,7 @@
 .technologies h3 {
   font-size: 1.8rem;
   margin-bottom: 2rem;
-  color: #333;
+  color: var(--text-primary);
 }
 
 .tech-grid {
@@ -106,11 +124,11 @@
 }
 
 .tech-item {
-  background: white;
+  background: var(--bg-primary);
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-  color: #333;
+  color: var(--text-primary);
   font-weight: 500;
   transition: transform 0.3s ease;
 }

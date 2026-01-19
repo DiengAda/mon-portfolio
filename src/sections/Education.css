@@ -1,6 +1,6 @@
 .education {
   padding: 5rem 0;
-  background: white;
+  background: var(--bg-primary);
 }
 
 .education-container {
@@ -22,7 +22,7 @@
   top: 0;
   bottom: 0;
   width: 2px;
-  background: #646cff;
+  background: var(--accent-color);
   transform: translateX(-50%);
 }
 
@@ -49,7 +49,7 @@
   top: 20px;
   width: 15px;
   height: 15px;
-  background: #646cff;
+  background: var(--accent-color);
   border-radius: 50%;
   transform: translateX(-50%);
   z-index: 1;
@@ -57,7 +57,7 @@
 
 .education-date {
   flex: 0 0 120px;
-  background: #646cff;
+  background: var(--accent-color);
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 20px;
@@ -68,33 +68,33 @@
 
 .education-content {
   flex: 1;
-  background: #f8f9fa;
+  background: var(--bg-secondary);
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .education-content h3 {
-  color: #333;
+  color: var(--text-primary);
   margin-bottom: 0.5rem;
   font-size: 1.4rem;
 }
 
 .education-content h4 {
-  color: #646cff;
+  color: var(--accent-color);
   margin-bottom: 1rem;
   font-size: 1.1rem;
   font-weight: 500;
 }
 
 .education-description {
-  color: #666;
+  color: var(--text-secondary);
   margin-bottom: 1.5rem;
   line-height: 1.6;
 }
 
 .education-courses h5 {
-  color: #333;
+  color: var(--text-primary);
   margin-bottom: 0.8rem;
   font-size: 1rem;
 }
@@ -108,7 +108,7 @@
 }
 
 .education-courses li {
-  color: #666;
+  color: var(--text-secondary);
   padding: 0.3rem 0;
   position: relative;
   padding-left: 1.2rem;
