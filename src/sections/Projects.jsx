@@ -3,6 +3,14 @@ import './Projects.css'
 function Projects() {
   const projects = [
     {
+      title: "Projet Master : CLIMIC - Impact du changement climatique sur les micro-organismes du vin (travaux en cours...)" ,
+      description: "Projet CLIMIC financé par la Région Bourgogne Franche-Comté visant à comprendre l'évolution et l'adaptation des micro-organismes du vin au changement climatique. Objectifs : collecter et traiter statistiquement des données de composition de moûts (azote, sucre, pH, paramètres œnologiques) sur 30-40 ans et différents cépages (Chardonnay, Pinot noir, Gamay) ; créer une base de données ; analyser l'impact des modifications des moûts sur la fermentation alcoolique.",
+      technologies: ["Python", "Statistique", "Data Analysis", "Base de données", "R", "Data Science"],
+      image: "🍇",
+      github: "https://github.com/DiengAda/projet-CLIMIC",
+      demo: "#"
+    },
+    {
       title: "Stage Master 2: MATHEMATICAL MODELING AND SIMULATIONS OF ORGAN-ON-CHIP OOC",
       description: "Modélisation de la migration cellulaire induite par des signaux chimiques et des interactions à courte et longue portée entre cellules immunitaires et tumorales. Conception d'un schéma numérique implémenté en C++ pour résoudre ces modèles mathématiques et obtenir des simulations fidèles aux observations expérimentales en labo.",
       technologies: ["C++", "EDPs","Modélisation mathématique", "Simulation numérique", "Visualisation", "ParaView","Github"],
