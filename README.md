@@ -104,3 +104,5 @@ mon-portfolio/
 ## Licence
 
 Projet personnel. Merci de ne pas réutiliser le contenu (textes, images) sans autorisation.
+This project is licensed under the MIT License.
+
