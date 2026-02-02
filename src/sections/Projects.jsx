@@ -72,7 +72,7 @@ function Projects() {
                 </div>
                 <div className="project-links">
                   <a href={project.github} className="project-link">
-                    <span>Voir en détails </span>
+                    <span>Voir en détails sur GitHub</span>
                   </a>
                   {/* <a href={project.demo} className="project-link demo">
                     <span>Démo</span>
