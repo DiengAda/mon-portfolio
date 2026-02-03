@@ -11,13 +11,13 @@ function Languages() {
     {
 
       name: 'Anglais',
-      level: 'Niveau intermédiaire',
+      level: 'Niveau professionnel',
       proficiency: 50,
       flag: '🇬🇧'
     },
     {
       name: 'Wolof',
-      level: 'Langue maternelle',
+      level: 'Langue natale',
       proficiency: 100,
       flag: '🇸🇳'
     }
@@ -27,25 +27,15 @@ function Languages() {
     <section id="langues" className="languages">
       <div className="languages-container">
         <h2 className="section-title">Langues</h2>
-        <div className="languages-grid">
+        <ul className="languages-list">
           {languages.map((language, index) => (
-            <div key={index} className="language-item">
-              <div className="language-header">
-                <span className="language-flag">{language.flag}</span>
-                <div className="language-info">
-                  <h3>{language.name}</h3>
-                  <p>{language.level}</p>
-                </div>
-              </div>
-              <div className="language-bar">
-                <div 
-                  className="language-progress" 
-                  style={{ width: `${language.proficiency}%` }}
-                ></div>
-              </div>
-            </div>
+            <li key={index} className="language-line">
+              <span className="language-flag">{language.flag}</span>
+              <span className="language-name">{language.name}</span>
+              <span className="language-level">— {language.level}</span>
+            </li>
           ))}
-        </div>
+        </ul>
         
         {/* <div className="additional-skills">
           <h3>Compétences Complémentaires</h3>
