@@ -1,6 +1,6 @@
 .skills {
-  padding: 5rem 0;
-  background: var(--bg-secondary);
+  padding: 6rem 0;
+  background: transparent;
 }
 
 .skills-container {
@@ -17,10 +17,12 @@
 }
 
 .skill-item {
-  background: var(--bg-primary);
+  background: var(--surface-color);
   padding: 1.5rem;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-md);
+  backdrop-filter: blur(14px);
 }
 
 .skill-header {
@@ -51,7 +53,7 @@
 
 .skill-progress {
   height: 100%;
-  background: linear-gradient(45deg, #646cff, #747bff);
+  background: linear-gradient(90deg, var(--accent-color), var(--accent-strong));
   border-radius: 4px;
   transition: width 1s ease;
 }
@@ -65,22 +67,24 @@
 }
 
 .skill-tag {
-  background: var(--bg-primary);
+  background: var(--surface-color);
   color: var(--text-primary);
   border: 1px solid var(--border-color);
   padding: 0.5rem 0.9rem;
   border-radius: 999px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  box-shadow: var(--shadow-md);
   font-weight: 500;
 }
 
 /* Blocs de catégories de compétences */
 .skills-block {
-  background: var(--bg-primary);
+  background: var(--surface-color);
   border-radius: 12px;
   padding: 1.25rem 1.25rem 0.25rem;
   margin-bottom: 1.5rem;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-color);
+  backdrop-filter: blur(14px);
 }
 
 .skill-block-header {
@@ -124,10 +128,10 @@
 }
 
 .tech-item {
-  background: var(--bg-primary);
+  background: var(--surface-color);
   padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  box-shadow: var(--shadow-md);
   color: var(--text-primary);
   font-weight: 500;
   transition: transform 0.3s ease;
@@ -135,12 +139,12 @@
 
 .tech-item:hover {
   transform: translateY(-3px);
-  box-shadow: 0 5px 20px rgba(100, 108, 255, 0.2);
+  box-shadow: var(--shadow-lg);
 }
 
 @media (max-width: 768px) {
   .skills {
-    padding: 3rem 0;
+    padding: 4rem 0;
   }
   
   .skills-grid {

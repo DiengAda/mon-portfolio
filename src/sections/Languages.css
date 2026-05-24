@@ -1,6 +1,6 @@
 .languages {
-  padding: 5rem 0;
-  background: var(--bg-secondary);
+  padding: 6rem 0;
+  background: transparent;
 }
 
 .languages-container {
@@ -51,7 +51,7 @@
 .additional-skills h3 {
   font-size: 1.8rem;
   margin-bottom: 2rem;
-  color: #333;
+  color: var(--text-primary);
 }
 
 .skills-list {
@@ -61,10 +61,12 @@
 }
 
 .skill-card {
-  background: white;
+  background: var(--surface-color);
   padding: 2rem;
-  border-radius: 15px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-color);
+  backdrop-filter: blur(14px);
   text-align: center;
   transition: transform 0.3s ease;
 }
@@ -80,20 +82,20 @@
 }
 
 .skill-card h4 {
-  color: #333;
+  color: var(--text-primary);
   margin-bottom: 1rem;
   font-size: 1.2rem;
 }
 
 .skill-card p {
-  color: #666;
+  color: var(--text-secondary);
   line-height: 1.6;
   margin: 0;
 }
 
 @media (max-width: 768px) {
   .languages {
-    padding: 3rem 0;
+    padding: 4rem 0;
   }
 
   .language-line {

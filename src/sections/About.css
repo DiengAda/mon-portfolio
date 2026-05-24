@@ -1,31 +1,12 @@
 .about {
-  padding: 5rem 0;
-  background: var(--bg-primary);
+  padding: 6rem 0;
+  background: transparent;
 }
 
 .about-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
-}
-
-.section-title {
-  text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 3rem;
-  color: #333;
-  position: relative;
-}
-
-.section-title::after {
-  content: '';
-  position: absolute;
-  bottom: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 50px;
-  height: 3px;
-  background: #646cff;
 }
 
 .about-content {
@@ -58,13 +39,16 @@
 .stat {
   text-align: center;
   padding: 1.5rem;
-  border-radius: 10px;
-  background: var(--bg-secondary);
+  border-radius: 22px;
+  background: var(--surface-color);
+  border: 1px solid var(--border-color);
+  backdrop-filter: blur(14px);
+  box-shadow: var(--shadow-md);
   transition: transform 0.3s ease;
 }
 
 .stat:hover {
-  transform: translateY(-5px);
+  transform: translateY(-6px);
 }
 
 .stat h3 {
@@ -80,11 +64,7 @@
 
 @media (max-width: 768px) {
   .about {
-    padding: 3rem 0;
-  }
-  
-  .section-title {
-    font-size: 2rem;
+    padding: 4rem 0;
   }
   
   .about-stats {

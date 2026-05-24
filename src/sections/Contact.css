@@ -1,6 +1,6 @@
 .contact {
-  padding: 5rem 0;
-  background: var(--bg-secondary);
+  padding: 6rem 0;
+  background: transparent;
 }
 
 .contact-container {
@@ -39,9 +39,11 @@
   align-items: center;
   gap: 1rem;
   padding: 1rem;
-  background: var(--bg-primary);
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  background: var(--surface-color);
+  border-radius: 18px;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-md);
+  backdrop-filter: blur(14px);
 }
 
 .contact-icon {
@@ -61,10 +63,12 @@
 }
 
 .contact-form {
-  background: var(--bg-primary);
+  background: var(--surface-color);
   padding: 2rem;
-  border-radius: 15px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 22px;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-lg);
+  backdrop-filter: blur(14px);
 }
 
 .form-group {
@@ -76,7 +80,7 @@
   width: 100%;
   padding: 1rem;
   border: 2px solid var(--border-color);
-  border-radius: 8px;
+  border-radius: 16px;
   font-size: 1rem;
   transition: border-color 0.3s ease;
   box-sizing: border-box;
@@ -98,23 +102,22 @@
 .submit-btn {
   width: 100%;
   padding: 1rem 2rem;
-  background: var(--accent-color);
+  background: linear-gradient(135deg, var(--accent-color), var(--accent-strong));
   color: white;
   border: none;
-  border-radius: 8px;
+  border-radius: 16px;
   font-size: 1.1rem;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .submit-btn:hover {
-  background: #5a5fcf;
-  transform: translateY(-2px);
+  transform: translateY(-3px);
 }
 
 @media (max-width: 768px) {
   .contact {
-    padding: 3rem 0;
+    padding: 4rem 0;
   }
   
   .contact-content {

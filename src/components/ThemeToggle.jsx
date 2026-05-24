@@ -2,11 +2,11 @@ import { useState, useEffect } from 'react'
 import './ThemeToggle.css'
 
 function ThemeToggle() {
-  const [theme, setTheme] = useState('light')
+  const [theme, setTheme] = useState('dark')
 
   useEffect(() => {
     // Récupérer le thème sauvegardé ou utiliser le défaut
-    const savedTheme = localStorage.getItem('theme') || 'light'
+    const savedTheme = localStorage.getItem('theme') || 'dark'
     setTheme(savedTheme)
     document.documentElement.setAttribute('data-theme', savedTheme)
   }, [])

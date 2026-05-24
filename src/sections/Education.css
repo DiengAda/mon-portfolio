@@ -1,6 +1,6 @@
 .education {
-  padding: 5rem 0;
-  background: var(--bg-primary);
+  padding: 6rem 0;
+  background: transparent;
 }
 
 .education-container {
@@ -68,10 +68,12 @@
 
 .education-content {
   flex: 1;
-  background: var(--bg-secondary);
+  background: var(--surface-color);
   padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-md);
+  backdrop-filter: blur(14px);
 }
 
 .education-content h3 {
@@ -118,13 +120,13 @@
   content: '▸';
   position: absolute;
   left: 0;
-  color: #646cff;
+  color: var(--accent-color);
   font-weight: bold;
 }
 
 @media (max-width: 768px) {
   .education {
-    padding: 3rem 0;
+    padding: 4rem 0;
   }
   
   .education-timeline::before {

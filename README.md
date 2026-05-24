@@ -10,6 +10,7 @@ Site portfolio personnel développé avec React et Vite, déployé sur GitHub Pa
 - Thème clair/sombre avec persistance (`localStorage`)
 - Navigation fixe avec défilement fluide vers les sections
 - Sélecteur de langue (FR/EN)
+- Téléchargement direct du CV depuis la page d’accueil
 - Sections structurées : Accueil, À propos, Projets & expériences, Formation, Compétences, Langues, Contact
 - Design responsive (mobile, tablette, desktop)
 
@@ -89,6 +90,7 @@ mon-portfolio/
 ## Personnalisation rapide
 
 - Photo de profil : remplace [src/assets/me.jpg](src/assets/me.jpg) ou modifie l’import dans [src/sections/Hero.jsx](src/sections/Hero.jsx#L2)
+- CV PDF : place le fichier dans [public/cv-adama-dieng.pdf](public/cv-adama-dieng.pdf) pour activer le bouton de téléchargement du hero
 - Couleurs & thèmes : variables dans [src/index.css](src/index.css) (`--bg-primary`, `--bg-secondary`, `--text-primary`, `--text-secondary`, `--accent-color`, etc.)
 - Projets : contenu dans [src/sections/Projects.jsx](src/sections/Projects.jsx)
 - Compétences : contenu dans [src/sections/Skills.jsx](src/sections/Skills.jsx)

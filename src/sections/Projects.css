@@ -1,6 +1,6 @@
 .projects {
-  padding: 5rem 0;
-  background: var(--bg-primary);
+  padding: 6rem 0;
+  background: transparent;
 }
 
 .projects-container {
@@ -11,28 +11,30 @@
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   max-width: 1400px;
   margin: 0 auto;
 }
 
 .project-card {
-  background: var(--bg-secondary);
-  border-radius: 15px;
+  background: var(--surface-color);
+  border-radius: 24px;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-md);
+  backdrop-filter: blur(14px);
 }
 
 .project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg);
 }
 
 .project-image {
   height: 200px;
-  background: linear-gradient(135deg, #646cff, #747bff);
+  background: linear-gradient(135deg, var(--accent-color), var(--accent-strong));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,8 +69,9 @@
 }
 
 .tech-tag {
-  background: var(--accent-color);
-  color: white;
+  background: var(--accent-soft);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
   padding: 0.3rem 0.8rem;
   border-radius: 20px;
   font-size: 0.8rem;
@@ -98,17 +101,17 @@
 }
 
 .project-link.demo {
-  background: #646cff;
+  background: linear-gradient(135deg, var(--accent-color), var(--accent-strong));
   color: white;
 }
 
 .project-link.demo:hover {
-  background: #5a5fcf;
+  background: linear-gradient(135deg, var(--accent-strong), var(--accent-color));
 }
 
 @media (max-width: 768px) {
   .projects {
-    padding: 3rem 0;
+    padding: 4rem 0;
   }
   
   .projects-grid {

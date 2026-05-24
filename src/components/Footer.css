@@ -1,7 +1,8 @@
 .footer {
-  background: #333;
-  color: white;
+  background: var(--bg-secondary);
+  color: var(--text-primary);
   padding: 3rem 0 1rem;
+  border-top: 1px solid var(--border-color);
 }
 
 .footer-container {
@@ -20,11 +21,11 @@
 .footer-section h3,
 .footer-section h4 {
   margin-bottom: 1rem;
-  color: #646cff;
+  color: var(--accent-color);
 }
 
 .footer-section p {
-  color: #ccc;
+  color: var(--text-secondary);
   line-height: 1.6;
 }
 
@@ -38,13 +39,13 @@
 }
 
 .footer-section ul li a {
-  color: #ccc;
+  color: var(--text-secondary);
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .footer-section ul li a:hover {
-  color: #646cff;
+  color: var(--accent-color);
 }
 
 .social-links {
@@ -65,8 +66,8 @@
 .footer-bottom {
   text-align: center;
   padding-top: 2rem;
-  border-top: 1px solid #555;
-  color: #ccc;
+  border-top: 1px solid var(--border-color);
+  color: var(--text-secondary);
 }
 
 @media (max-width: 768px) {
