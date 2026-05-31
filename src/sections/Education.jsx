@@ -34,7 +34,7 @@ function Education() {
       ]
     },
     {
-      degree: "Master 1 Mathématiques Appliquées",
+      degree: "Maîtrise Mathématiques Appliquées",
       school: "Université Cheikh Anta Diop de Dakar, Sénégal",
       period: "2021 - 2022",
       description: "Formation approfondie en mathématiques appliquées et modélisation numérique",
