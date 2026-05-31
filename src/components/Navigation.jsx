@@ -23,6 +23,7 @@ function Navigation() {
           <li><button onClick={() => scrollToSection('competences')}>Compétences</button></li>
           <li><button onClick={() => scrollToSection('langues')}>Langues</button></li>
           <li><button onClick={() => scrollToSection('projets')}>Projets</button></li>
+          <li><button onClick={() => scrollToSection('experiences')}>Expériences</button></li>
           <li><button onClick={() => scrollToSection('contact')}>Contact</button></li>
         </ul>
         <div className="nav-toggles">
