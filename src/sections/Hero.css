@@ -130,6 +130,27 @@
   transform: translateY(-3px);
 }
 
+.btn-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.pdf-icon {
+  width: 1.05rem;
+  height: 1.4rem;
+  display: inline-block;
+  flex: 0 0 auto;
+  color: var(--accent-strong);
+}
+
+.btn-download svg text {
+  font-family: var(--font-display);
+  font-size: 6px;
+}
+
 .hero-image {
   display: flex;
   justify-content: center;

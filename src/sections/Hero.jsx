@@ -17,24 +17,24 @@ function Hero() {
           </p>
           <div className="hero-buttons">
             <button 
-              className="btn btn-primary"
+              className="btn btn-download"
               onClick={() => document.getElementById('projets').scrollIntoView({ behavior: 'smooth' })}
             >
-              Voir mes projets
+              Projets et Expériences
             </button>
 
             <button 
-              className="btn btn-secondary"
+              className="btn btn-download"
               onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
             >
               Me contacter
             </button>
 
             <button 
-              className="btn btn-ghost"
+              className="btn btn-download"
               onClick={() => document.getElementById('formation').scrollIntoView({ behavior: 'smooth' })}
             >
-              Voir mes formations
+              Formations
             </button>
 
             <a
@@ -43,7 +43,13 @@ function Hero() {
               download="CV_Adama_Dieng.pdf"
               target="_blank"
               rel="noreferrer"
+              aria-label="Télécharger le CV au format PDF"
             >
+              <svg className="pdf-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path fill="currentColor" d="M6 2h7l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" opacity="0.95"/>
+                <path fill="#fff" d="M13 3.5V8h4.5L13 3.5z"/>
+                <text x="6" y="17" fill="currentColor" fontWeight="700" fontSize="6">PDF</text>
+              </svg>
               Télécharger mon CV
             </a>
           </div>
