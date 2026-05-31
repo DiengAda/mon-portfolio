@@ -11,27 +11,11 @@ function Projects() {
       demo: "#"
     },
     {
-      title: "Stage Master 2: MATHEMATICAL MODELING AND SIMULATIONS OF ORGAN-ON-CHIP OOC",
-      description: "Modélisation de la migration cellulaire induite par des signaux chimiques et des interactions à courte et longue portée entre cellules immunitaires et tumorales. Conception d'un schéma numérique implémenté en C++ pour résoudre ces modèles mathématiques et obtenir des simulations fidèles aux observations expérimentales en labo.",
-      technologies: ["C++", "EDPs","Modélisation mathématique", "Simulation numérique", "Visualisation", "ParaView","Github"],
-      image: "🧬",
-      github: "https://github.com/orgs/master-csmi/discussions/72",
-      demo: "#"
-    },
-    {
       title: "Projet académique: SIMULATION NUMÉRIQUE D’UN MODÈLE  DIPHASIQUE DANS UN MILIEU POREUX",
       description: "Modélisation et simulation numérique d'un écoulement diphasique dans un milieu poreux. Analyse des interactions fluides et évaluation des paramètres influençant l'écoulement dans le milieu poreux. Visualisation 2D/3D avec Paraview et post-processing.",
       technologies: ["EDPs","Python", "Loi de Darcy", "Simulation", "Paraview", "Visualisation"],
       image: "💧",
       github: "#",
-      demo: "#"
-    },
-    {
-      title: "Stage Master 1 : ETUDE D’UN SCHÉMA DE TYPE GALERKINE  DISCONTINUE (DG)",
-      description: "Analyse et implémentation en Python de la méthode de Galerkine Discontinue pour résoudre des systèmes d'EDP linéaires stationnaires. Application à des problèmes de transport linéaire non stationnaires (advection-réaction), avec une analyse approfondie des bornes sur les dérivées des erreurs.",
-      technologies: ["Python", "Analyse numérique", "EDPs"],
-      image: "📊",
-      github: "https://github.com/DiengAda/Mes_Projets_Master/tree/main/Stages/M1-DG/dg-dieng-main",
       demo: "#"
     },
     {
@@ -55,7 +39,7 @@ function Projects() {
   return (
     <section id="projets" className="projects">
       <div className="projects-container">
-        <h2 className="section-title">Projets et Expériences professionnelles</h2>
+        <h2 className="section-title">Projets académiques et de recherche</h2>
         <div className="projects-grid">
           {projects.map((project, index) => (
             <div key={index} className="project-card">

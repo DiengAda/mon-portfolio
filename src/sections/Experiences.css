@@ -1,15 +1,15 @@
-.projects {
+.experiences {
   padding: 6rem 0;
   background: transparent;
 }
 
-.projects-container {
+.experiences-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
 }
 
-.projects-grid {
+.experiences-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
@@ -17,7 +17,7 @@
   margin: 0 auto;
 }
 
-.project-card {
+.experience-card {
   display: grid;
   grid-template-columns: 220px minmax(0, 1fr);
   align-items: stretch;
@@ -30,12 +30,12 @@
   backdrop-filter: blur(14px);
 }
 
-.project-card:hover {
+.experience-card:hover {
   transform: translateY(-8px);
   box-shadow: var(--shadow-lg);
 }
 
-.project-image {
+.experience-image {
   min-height: 100%;
   background: linear-gradient(135deg, rgba(56, 189, 248, 0.14), rgba(15, 118, 110, 0.12));
   border-right: 1px solid rgba(56, 189, 248, 0.18);
@@ -46,39 +46,39 @@
   padding: 2rem 1rem;
 }
 
-.project-icon {
+.experience-icon {
   font-size: 4.25rem;
   line-height: 1;
   color: var(--accent-color);
   text-shadow: 0 8px 24px rgba(56, 189, 248, 0.15);
 }
 
-.project-content {
+.experience-content {
   padding: 2rem 2rem 1.75rem;
   border-left: 4px solid var(--accent-color);
 }
 
-.project-content h3 {
+.experience-content h3 {
   margin: 0 0 1rem 0;
   color: var(--accent-color);
   font-size: 1.35rem;
   letter-spacing: -0.03em;
 }
 
-.project-content p {
+.experience-content p {
   color: var(--text-secondary);
   line-height: 1.7;
   margin-bottom: 1.5rem;
 }
 
-.project-technologies {
+.experience-technologies {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-bottom: 1.5rem;
 }
 
-.tech-tag {
+.experience-tag {
   background: linear-gradient(135deg, rgba(56, 189, 248, 0.08), rgba(15, 118, 110, 0.08));
   border: 1px solid rgba(56, 189, 248, 0.22);
   color: var(--accent-color);
@@ -88,13 +88,13 @@
   font-weight: 700;
 }
 
-.project-links {
+.experience-links {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
 }
 
-.project-link {
+.experience-link {
   padding: 0.9rem 1.2rem;
   border-radius: 999px;
   text-decoration: none;
@@ -108,44 +108,27 @@
   gap: 0.4rem;
 }
 
-.project-link:hover {
+.experience-link:hover {
   background: rgba(56, 189, 248, 0.14);
   color: var(--accent-strong);
   transform: translateY(-3px);
   box-shadow: var(--shadow-md);
 }
 
-.project-link.demo {
-  background: linear-gradient(135deg, var(--accent-color), var(--accent-strong));
-  color: white;
-}
-
-.project-link.demo:hover {
-  background: linear-gradient(135deg, var(--accent-strong), var(--accent-color));
-}
-
 @media (max-width: 768px) {
-  .projects {
+  .experiences {
     padding: 4rem 0;
   }
 
-  .project-card {
+  .experience-card {
     grid-template-columns: 1fr;
   }
 
-  .project-image {
+  .experience-image {
     min-height: 160px;
   }
 
-  .project-content {
+  .experience-content {
     border-left-width: 3px;
-  }
-  
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .project-links {
-    flex-direction: column;
   }
 }
